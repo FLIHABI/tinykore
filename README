@@ -1,0 +1,15 @@
+How to make a core ?
+--------------------
+* Download:
+    ~ qemu
+    ~ cpio
+    ~ advcomp for advdef tool
+        --> http://www.phpied.com/install-png-tools-on-mac/
+    ~ the core (need to change cause of versioning...)
+        --> https://mega.co.nz/#!uRIkhIJD!vqSUzdddUakC3xZHJp3sLYkwf11sNw01R6_Nkz6OzB4
+
+* The core:
+$ make unpack
+--> Change whatever you want in core/core-root
+$ make pack
+$ make test
