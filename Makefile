@@ -1,4 +1,4 @@
-ISONAME=flihabi-kernel.iso
+ISONAME=kernel/flihabi-kernel.iso
 MOUNTPOINT=/mnt
 
 unpack:
