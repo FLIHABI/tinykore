@@ -25,5 +25,9 @@ test:
 boot:
 	qemu-system-i386 -boot d -cdrom flihabi-kernel.iso -m 512
 
+apply:
+	cp ./test.iso ./kernel/flihabi-kernel.iso
+	cd kernel; git add flihabi-kernel.iso; git commit; git push; cd ..
+
 clean:
 	sudo rm -rf ./core/core-root ./core/core.gz ./iso test.iso
