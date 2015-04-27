@@ -1,6 +1,7 @@
 unpack: clean
 	mkdir -p core-root
 	cd ./core-root; zcat ../../iso/boot/core.gz | sudo cpio -i -H newc -d; cd ..
+	sudo chown -R $(USER) ./core-root
 
 pack:
 	rm -rf core.gz

@@ -9,6 +9,7 @@ unpack:
 	make -C ./core unpack
 
 pack:
+	rm -rf newiso
 	mkdir newiso
 	cp -r ./iso/boot newiso
 	make -C ./core pack
@@ -30,4 +31,4 @@ apply:
 	cd kernel; git add flihabi-kernel.iso; git commit; git push; cd ..
 
 clean:
-	sudo rm -rf ./core/core-root ./core/core.gz ./iso test.iso
+	sudo rm -rf ./core/core-root ./core/core.gz ./iso test.iso ./newiso
