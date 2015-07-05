@@ -6,7 +6,7 @@ How to make a core ?
     ~ advcomp for advdef tool
         --> http://www.phpied.com/install-png-tools-on-mac/
     ~ the core (need to change cause of versioning...)
-        --> https://mega.co.nz/#!uRIkhIJD!vqSUzdddUakC3xZHJp3sLYkwf11sNw01R6_Nkz6OzB4
+        --> see Flihabi/kernel repository
 
 * The core:
 $ make unpack

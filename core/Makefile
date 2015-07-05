@@ -10,4 +10,4 @@ pack:
 	advdef -z4 ./core.gz
 
 clean:
-	sudo rm -rf core-root/* core.gz
+	sudo rm -rf core-root core.gz
